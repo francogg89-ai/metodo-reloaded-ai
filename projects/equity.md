@@ -22,6 +22,30 @@ El carácter canónico de `Equity-corpus` en esta etapa es **documental**: es la
 autoritativa del corpus histórico reunido sobre el proyecto. No implica que todo contenido
 presente en el repositorio represente una posición vigente o canónica de Equity.
 
+## Linaje nominal estable
+
+Los nombres `Arrebol`, `UnIdeas` y `Equity` corresponden a etapas nominales sucesivas del
+mismo proyecto intelectual, no a tres proyectos independientes:
+
+```text
+Arrebol
+    ↓
+primer nombre histórico
+
+UnIdeas
+    ↓
+segundo nombre histórico
+
+Equity
+    ↓
+nombre de trabajo actual
+```
+
+`Equity` sigue siendo un nombre de trabajo. Si en el futuro existe una comunidad capaz de
+materializar el proyecto, esa comunidad podrá decidir colectivamente otro nombre, identidad,
+símbolos u otros elementos fundacionales. Este archivo no anticipa cuál sería esa identidad
+futura.
+
 ## Fuentes canónicas relevantes
 
 ### Corpus documental de Equity
@@ -46,6 +70,37 @@ Las fuentes pueden contener ideas vigentes, históricas, contradictorias, experi
 superadas o todavía no evaluadas. La evolución intelectual debe poder reconstruirse sin
 destruir esas diferencias.
 
+### Conocimiento derivado estructurado de Equity
+
+```text
+REPO=francogg89-ai/Equity-knowledge
+BRANCH=main
+```
+
+`Equity-knowledge` es el repositorio estable destinado al conocimiento derivado estructurado
+y trazable del proyecto. No sustituye a `Equity-corpus`: deriva de sus fuentes y debe
+conservar la posibilidad de reconstruir razonablemente la procedencia del conocimiento que
+aloje.
+
+| Ruta | Función estable como fuente |
+|---|---|
+| `MANIFIESTO_TRABAJO.md` | Manifiesto aprobado de `derivacion-piezas-intelectuales-equity`, trabajo destinado a constituir la primera base de conocimiento intelectual estructurado y trazable de Equity. |
+| contenido derivado futuro | Conocimiento estructurado producido mediante trabajos aprobados. Su mera presencia en este repositorio no implica por sí sola pertenencia al canon doctrinario vigente de Equity. |
+
+Separación estable:
+
+```text
+Equity-corpus
+    = memoria documental histórica canónica
+
+Equity-knowledge
+    = conocimiento derivado estructurado y trazable
+```
+
+La existencia de una representación en `Equity-knowledge` tampoco equivale automáticamente a
+que Equity la sostenga actualmente. La determinación de canon o vigencia doctrinaria requiere
+trabajos y decisiones explícitas que correspondan.
+
 ### Repositorio del método
 
 ```text
@@ -60,7 +115,7 @@ METHOD_BRANCH=main
 | `roles/` | Instrucciones operativas de los roles. |
 | `templates/project/PROJECT.md` | Template de este mapa de proyecto. |
 
-La referencia exacta del método y las referencias exactas del corpus que gobiernan un
+La referencia exacta del método y las referencias exactas de las fuentes que gobiernan un
 trabajo concreto pertenecen a ese trabajo; no se duplican acá.
 
 ## Naturaleza estable del proyecto
@@ -85,6 +140,7 @@ En la etapa actual, Equity no posee entornos técnicos operativos estables equiv
 El proyecto se encuentra inicialmente centrado en:
 
 - corpus documental;
+- conocimiento derivado estructurado;
 - investigación;
 - construcción de conocimiento;
 - diseño institucional;
@@ -97,7 +153,8 @@ archivo.
 ## Taxonomía de recursos
 
 La taxonomía estable se mantiene deliberadamente mínima en esta etapa para no anticipar la
-arquitectura intelectual que debe surgir de trabajos posteriores.
+arquitectura intelectual que debe demostrar estabilidad mediante los trabajos que la
+construyan.
 
 | Tipo de recurso | Forma del identificador lógico | Alcance |
 |---|---|---|
@@ -107,22 +164,29 @@ arquitectura intelectual que debe surgir de trabajos posteriores.
 La existencia de una fuente o extracción no implica que su contenido haya sido aprobado como
 parte del canon intelectual vigente.
 
+Aunque el manifiesto de `derivacion-piezas-intelectuales-equity` define conceptualmente la
+`pieza intelectual` como unidad básica del conocimiento derivado, ese tipo de recurso todavía
+no se incorpora aquí como taxonomía estable. Podrá incorporarse cuando el trabajo la haya
+operacionalizado, verificado y demostrado como identidad durable del proyecto.
+
 Nuevos tipos de recurso sólo deberían incorporarse aquí cuando hayan demostrado ser estables
 a través de los trabajos que los utilizan.
 
 ## Separación entre corpus y conocimiento derivado
 
-En la etapa inicial, `francogg89-ai/Equity-corpus` es la fuente documental histórica canónica
-del proyecto.
+`francogg89-ai/Equity-corpus` es la fuente documental histórica canónica del proyecto.
 
-Se prevé que trabajos posteriores puedan producir uno o más repositorios derivados destinados
-a conocimiento estructurado, mapas conceptuales, reconstrucción histórica, canon,
-investigaciones externas u otras funciones.
+`francogg89-ai/Equity-knowledge` es el repositorio estable destinado a recibir conocimiento
+derivado estructurado y trazable mediante trabajos aprobados.
 
-Esos repositorios no se declaran anticipadamente aquí. Su creación, identidad y función deben
-resultar de trabajos aprobados y, una vez estabilizados como infraestructura permanente del
-proyecto, podrán incorporarse como fuentes canónicas relevantes mediante actualización de
-este archivo.
+La relación entre ambos es direccional: el conocimiento derivado puede referenciar,
+estructurar, relacionar e interpretar con incertidumbre declarada el contenido del corpus,
+pero no sustituye ni reescribe silenciosamente sus fuentes históricas.
+
+Otros repositorios derivados futuros —por ejemplo para funciones técnicas, investigación
+especializada o servicios— no se declaran anticipadamente aquí. Su incorporación como fuente
+estable deberá resultar de trabajos aprobados y de una función que haya demostrado
+permanencia.
 
 ## Cómo reconstruir los trabajos activos
 
