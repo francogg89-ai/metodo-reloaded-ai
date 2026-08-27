@@ -84,7 +84,9 @@ aloje.
 
 | Ruta | Función estable como fuente |
 |---|---|
-| `MANIFIESTO_TRABAJO.md` | Manifiesto aprobado de `derivacion-piezas-intelectuales-equity`, trabajo destinado a constituir la primera base de conocimiento intelectual estructurado y trazable de Equity. |
+| `MANIFIESTO_TRABAJO.md` | Manifiesto aprobado de `derivacion-piezas-intelectuales-equity`, trabajo que constituyó la primera base de conocimiento intelectual estructurado y trazable de Equity. |
+| `manifiestos/constitucion-estado-intelectual-vigente-equity/MANIFIESTO_TRABAJO.md` | Manifiesto aprobado del trabajo destinado a constituir el estado intelectual vigente de Equity. Su aprobación no implica que ese estado ni un canon hayan sido ya producidos. |
+| `conocimiento/` | Base promovida de piezas intelectuales, relaciones, familias, origen, materiales e índice navegable producida por trabajos aprobados. Su mera presencia no implica vigencia doctrinaria ni canon. |
 | contenido derivado futuro | Conocimiento estructurado producido mediante trabajos aprobados. Su mera presencia en este repositorio no implica por sí sola pertenencia al canon doctrinario vigente de Equity. |
 
 Separación estable:
@@ -160,14 +162,12 @@ construyan.
 |---|---|---|
 | `source_document` | `source:<slug>` | Documento o fuente primaria incorporada al corpus. |
 | `derived_extraction` | `extraction:<slug>` | Extracción o representación derivada de una fuente o conversación. |
+| `intellectual_piece` | `PI-<identidad_durable>` | Pieza intelectual individual, trazable y durable dentro de `Equity-knowledge`, operacionalizada y verificada por `derivacion-piezas-intelectuales-equity`. |
 
-La existencia de una fuente o extracción no implica que su contenido haya sido aprobado como
-parte del canon intelectual vigente.
+La existencia de una fuente, extracción o pieza intelectual no implica que su contenido haya sido aprobado como
+parte del canon intelectual vigente ni que represente una posición vigente de Equity.
 
-Aunque el manifiesto de `derivacion-piezas-intelectuales-equity` define conceptualmente la
-`pieza intelectual` como unidad básica del conocimiento derivado, ese tipo de recurso todavía
-no se incorpora aquí como taxonomía estable. Podrá incorporarse cuando el trabajo la haya
-operacionalizado, verificado y demostrado como identidad durable del proyecto.
+La taxonomía estable todavía no incorpora tipos para estado doctrinario, decisión doctrinaria o canon: esas identidades deberán demostrar estabilidad mediante el trabajo `constitucion-estado-intelectual-vigente-equity` antes de incorporarse aquí.
 
 Nuevos tipos de recurso sólo deberían incorporarse aquí cuando hayan demostrado ser estables
 a través de los trabajos que los utilizan.
